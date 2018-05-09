@@ -1,0 +1,19 @@
+{
+    "name": "lookyman/composer-plugin-test-package",
+    "type": "phpstan-extension",
+    "authors": [
+        {
+            "name": "Lukáš Unger",
+            "email": "looky.msc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "extra": {
+        "phpstan": {
+            "include": ["a.neon"],
+            "optional-include": ["b.neon"]
+        }
+    }
+}
